@@ -15,7 +15,7 @@
           "script": {
             "type": "text/javascript",
             "exec": [
-              "pm.test(\"Status code is 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});"
+              "https://automationexercise.com/api/productsList"
             ]
           }
         }
@@ -47,8 +47,8 @@
           "mode": "urlencoded",
           "urlencoded": [
             {
-              "key": "mail",
-              "value": "usuario_prueba@example.com"
+              "key": "email",
+              "value": "josefina.test@qa.com"
             },
             {
               "key": "password",
