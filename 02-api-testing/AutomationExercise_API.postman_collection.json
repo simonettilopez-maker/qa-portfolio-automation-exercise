@@ -1,0 +1,75 @@
+{
+  "info": {
+    "_postman_id": "6ceb1e81-bb0b-449f-b317-5fa3cc4cfd70",
+    "name": "AutomationExercise_API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "46986671",
+    "_collection_link": "https://go.postman.co/collection/46986671-6ceb1e81-bb0b-449f-b317-5fa3cc4cfd70?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET - All Products List",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "https://automationexercise.com/api/productsList"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://automationexercise.com/api/productsList",
+          "protocol": "https",
+          "host": [
+            "automationexercise",
+            "com"
+          ],
+          "path": [
+            "api",
+            "productsList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST - Verify Login",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "email",
+              "value": "josefina.test@qa.com"
+            },
+            {
+              "key": "password",
+              "value": "Password123"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://automationexercise.com/api/verifyLogin",
+          "protocol": "https",
+          "host": [
+            "automationexercise",
+            "com"
+          ],
+          "path": [
+            "api",
+            "verifyLogin"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
