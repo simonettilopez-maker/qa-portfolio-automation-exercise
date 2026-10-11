@@ -25,5 +25,10 @@ Repositorio oficial para el diseño, ejecución y automatización de pruebas sob
 ## Cómo ejecutar la automatización (Playwright)
 
 1. Clonar el repositorio:
-   ```bash
-git clone https://github.com/simonettilopez-maker/qa-portfolio-automation-exercise.git
+`git clone [https://github.com/simonettilopez-maker/qa-portfolio-automation-exercise.git](https://github.com/simonettilopez-maker/qa-portfolio-automation-exercise.git)`
+
+2. Instalar dependencias de Node:
+`npm install`
+
+3. Ejecutar las pruebas automatizadas:
+`npx playwright test`
